@@ -238,7 +238,7 @@ input {
 .card-7 > * {
   margin: 12px 10px;
 }
-.card-7 > p {
+.card-7 > a > p {
   font-family: robotolight, sans-serif;
   font-size: 14px;
 }
@@ -278,7 +278,8 @@ input {
   flex-direction: row;
   align-items: center;
 }
-.account > img {
+
+.account > a > img {
   width: 44px;
   border-radius: 50%;
   margin: 0.75rem;
@@ -292,4 +293,9 @@ input {
 .account > p {
     font-family: robotolight, sans-serif;
     font-size: 14px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
 }
